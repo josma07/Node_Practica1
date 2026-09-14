@@ -1,1 +1,2 @@
-console.log('¡Hola desde Node.js!');
+const fs = require('fs');
+fs.writeFileSync('hola.txt', '¡Hola desde Node.js!');
