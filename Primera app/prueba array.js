@@ -1,4 +1,4 @@
-/*const person = {
+const person = {
     name: 'Max',
     age: 29,
     greet() {
@@ -7,9 +7,9 @@
 };
 
 person.greet();
-*/
 
-/*const hobbies =['Sports','Cooking'];
+
+const hobbies1 =['Sports','Cooking'];
 //for (let hobby of hobbies){
 //    console.log(hobby);
 //}
@@ -19,19 +19,19 @@ console.log(hobbies.map(hobby => { // Arrow function
     return 'Hobby: ' + hobby;
 }))
 console.log(hobbies.map(hobby => 'Hobby: ' + hobby));
-*/
 
-/*const hobbies = ['Sports','Cooking'];
+
+const hobbies2 = ['Sports','Cooking'];
 hobbies.push('Programming');
 console.log(hobbies);
-*/
 
-/*const hobbies = ['Sports','Cooking'];
+
+const hobbies = ['Sports','Cooking'];
 const hobbiesCopiados = [...hobbies, 'Programming'];
 
 const persona = {nombre: 'Max', edad: 29};
 const personaCopiada = {...persona,};
-*/
+
 
 const toArray = (...args) => {
     return args;

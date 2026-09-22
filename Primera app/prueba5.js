@@ -14,7 +14,7 @@ console.log(name, age); // 'Max 29
 const hobbies = ['Sports','Cooking'];
 
 // hobby1 toma el indice 0, hobby2 el indice 1
-const [hobby1,, hobby2] = hobbies;
+const [hobby1, hobby2] = hobbies;
 
 console.log(hobby1);// Sports
 console.log(hobby2);// Cooking
